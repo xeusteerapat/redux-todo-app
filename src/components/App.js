@@ -5,6 +5,7 @@ import Todo from './Todo';
 
 const App = ({ todos, addTodo }) => {
   let textInput = null;
+
   const handleChange = element => {
     textInput = element;
   };
