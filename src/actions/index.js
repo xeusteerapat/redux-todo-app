@@ -15,10 +15,3 @@ export const toggleTodo = id => {
     id
   };
 };
-
-export const updateInput = input => {
-  return {
-    type: 'UPDATE_INPUT',
-    text: input
-  };
-};
